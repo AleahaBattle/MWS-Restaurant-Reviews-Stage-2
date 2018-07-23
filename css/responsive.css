@@ -1,0 +1,18 @@
+/* Display restaurant list items in a column */
+@media screen and (min-width: 0) and (max-width: 709px) {
+  #restaurants-list li {
+    max-width: 100%;
+  }
+}
+/* Display restaurant list items in two columns */
+@media screen and (min-width: 710px) and (max-width: 1049px) {
+  #restaurants-list li  {
+    max-width: 45%;
+  }
+}
+/* Display restaurant list items in three columns */
+@media screen and (min-width: 1050px) {
+  #restaurants-list li {
+    max-width: 300px;
+  }
+}
